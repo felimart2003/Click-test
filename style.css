@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.modern-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modern-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.modern-button:active {
+  background-color: #003d80;
+}
+
+.modern-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.modern-button svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+button:#clickButton {
+    padding: 50px 100px;
+    color: ;
+}
+
+#log {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#logList {
+    list-style-type: none;
+    padding: 0;
+}
