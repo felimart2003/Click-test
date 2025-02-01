@@ -25,14 +25,8 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-@keyframes changeColor {
-  0% { background-color: #003d80; }
-  50% { background-color: #0056b3; }
-  100% { background-color: #003d80; }
-}
-
 .modern-button:active {
-  animation: changeColor 0.5s;
+  background-color: #0056b3;
 }
 
 .modern-button:disabled {
@@ -52,8 +46,16 @@ body {
   background-color: rgb(0, 238, 20);
 }
 
+#clickButton:active {
+  background-color: rgb(0, 190, 16);
+}
+
 #stopButton:enabled {
   background-color: rgb(158, 0, 0);
+}
+
+#stopButton:active {
+  background-color: rgb(128, 0, 0);
 }
 
 #log {
