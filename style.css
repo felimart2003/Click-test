@@ -1,7 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#clickButton:active {
+  padding: 50px 100px;
+  background-color: rgb(0, 238, 20);
+}
+
+#stopButton:active {
+  background-color: rgb(158, 0, 0);
 }
 
 .modern-button {
@@ -41,17 +50,12 @@ body {
   margin-right: 8px;
 }
 
-button:#clickButton {
-    padding: 50px 100px;
-    color: ;
-}
-
 #log {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 #logList {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
