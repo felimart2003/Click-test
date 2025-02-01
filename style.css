@@ -4,15 +4,6 @@ body {
   margin-top: 50px;
 }
 
-#clickButton:active {
-  padding: 50px 100px;
-  background-color: rgb(0, 238, 20);
-}
-
-#stopButton:active {
-  background-color: rgb(158, 0, 0);
-}
-
 .modern-button {
   display: inline-flex;
   align-items: center;
@@ -34,8 +25,14 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+@keyframes changeColor {
+  0% { background-color: #003d80; }
+  50% { background-color: #0056b3; }
+  100% { background-color: #003d80; }
+}
+
 .modern-button:active {
-  background-color: #003d80;
+  animation: changeColor 0.5s;
 }
 
 .modern-button:disabled {
@@ -48,6 +45,15 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 8px;
+}
+
+#clickButton:enabled {
+  padding: 50px 100px;
+  background-color: rgb(0, 238, 20);
+}
+
+#stopButton:enabled {
+  background-color: rgb(158, 0, 0);
 }
 
 #log {
